@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb4f622b-eadf-4528-9b43-5d0de3511243" name="Changes" comment="commit">
+    <list default="true" id="eb4f622b-eadf-4528-9b43-5d0de3511243" name="Changes" comment="add screenResolution full">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/krackdigger/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/krackdigger/MainTest.java" afterDir="false" />
     </list>
@@ -158,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685984254613</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add screenResolution full">
+      <created>1685987582216</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685987582216</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,7 +181,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="add screenResolution full" />
+    <option name="LAST_COMMIT_MESSAGE" value="add screenResolution full" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SelenideUiTest$MainTest_userCanLoginByUsername.ic" NAME="MainTest.userCanLoginByUsername Coverage Results" MODIFIED="1685653108996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
