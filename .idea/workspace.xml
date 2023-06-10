@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="eb4f622b-eadf-4528-9b43-5d0de3511243" name="Changes" comment="edit Jenkinsfile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/krackdigger/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/krackdigger/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -388,7 +388,42 @@
       <option name="project" value="LOCAL" />
       <updated>1686390190042</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="edit Jenkinsfile">
+      <created>1686390674480</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1686390674480</updated>
+    </task>
+    <task id="LOCAL-00030" summary="edit Jenkinsfile">
+      <created>1686390683368</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1686390683368</updated>
+    </task>
+    <task id="LOCAL-00031" summary="edit Jenkinsfile">
+      <created>1686392094094</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1686392094094</updated>
+    </task>
+    <task id="LOCAL-00032" summary="edit Jenkinsfile">
+      <created>1686392392273</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1686392392273</updated>
+    </task>
+    <task id="LOCAL-00033" summary="edit Jenkinsfile">
+      <created>1686392873544</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1686392873544</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
