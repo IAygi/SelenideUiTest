@@ -16,10 +16,15 @@ pipeline {
             sh './gradlew clean test'
           }
         }
-        stage('Allure Serve') {
-          steps {
-            sh './gradlew allureServe'
-          }
-        }
     }
+    post {
+            success { allure([
+            includeProperties: false,
+            jdk: '',
+            properties: [],
+            reportBuildPolicy: 'ALWAYS',
+            results: [[path: 'target/allure-results']]
+            ])
+        }
+     }
 }
