@@ -19,6 +19,7 @@ import java.util.Optional;
 
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class MainTest {
 
@@ -57,6 +58,6 @@ public class MainTest {
 //        $("#submit").click();
 //        $(".loading_progress").should(disappear); // Само подождёт, пока элемент исчезнет
 //        $("#username").shouldHave(text("Hello, Johny!")); // Само подождёт, пока у элемента появится нужный текст
-        Assertions.assertTrue(true);
+        assertEquals(1,1);
     }
 }
