@@ -11,6 +11,11 @@ pipeline {
             sh './gradlew clean test --no-daemon'
           }
         }
+        stage('Build Allure') {
+          steps {
+            sh './gradlew allureServe'
+          }
+        }
         stage('Allure Serve') {
           steps {
             allure([
