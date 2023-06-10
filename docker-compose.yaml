@@ -1,7 +1,0 @@
-jenkins:
-  image: jenkins/jenkins:lts
-  volumes:
-    - ${PWD}/work/jenkins:/var/jenkins_home
-  ports:
-    - 8000:8080
-  network_mode: bridge
