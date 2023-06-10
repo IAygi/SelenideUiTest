@@ -8,12 +8,12 @@ pipeline {
         }
         stage('Gradle Build') {
           steps {
-            sh './gradlew build'
+            sh './gradlew build --no-daemon'
           }
         }
         stage('Test') {
           steps {
-            sh './gradlew clean test'
+            sh './gradlew clean test --no-daemon'
           }
         }
         stage('Allure Serve') {
