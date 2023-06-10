@@ -29,9 +29,9 @@ public class MainTest {
         ChromeOptions options = new ChromeOptions();
         options.setCapability("selenoid:options", new HashMap<String, Object>() {{
             put("name", "My test");
-            put("sessionTimeout", "5m");
+            put("sessionTimeout", "1m");
             put("screenResolution", "1920x1080x24");
-            put("enableVNC", true);
+//            put("enableVNC", true);
             put("env", new ArrayList<String>() {{
                 add("TZ=UTC");
             }});
