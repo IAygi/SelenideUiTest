@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb4f622b-eadf-4528-9b43-5d0de3511243" name="Changes" comment="add screenResolution full">
+    <list default="true" id="eb4f622b-eadf-4528-9b43-5d0de3511243" name="Changes" comment="edit Jenkinsfile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/krackdigger/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/krackdigger/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +18,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,19 +43,25 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2QcNKVX3k4X2HaZ6uD7Y6FEVTlD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/JavaProjects/qaguru_homework_12.5"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/JavaProjects/qaguru_homework_12.5&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.MainTest">
     <configuration name="MainTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" isNew="true">
       <ExternalSystemSettings>
@@ -60,6 +77,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;ru.krackdigger.MainTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MainTest.simpleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" isNew="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.krackdigger.MainTest.simpleTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -138,6 +178,7 @@
       <list>
         <item itemvalue="Gradle.MainTest" />
         <item itemvalue="Gradle.SelenideUiTest [test]" />
+        <item itemvalue="Gradle.MainTest.simpleTest" />
         <item itemvalue="Gradle.SelenideUiTest [dependencies]" />
       </list>
     </recent_temporary>
@@ -165,7 +206,161 @@
       <option name="project" value="LOCAL" />
       <updated>1685987582216</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add WebDriver::quit">
+      <created>1685990379093</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685990379093</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add Jenkinsfile">
+      <created>1686342294924</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686342294925</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add Jenkinsfile">
+      <created>1686342814069</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686342814069</updated>
+    </task>
+    <task id="LOCAL-00006" summary="edit Jenkinsfile">
+      <created>1686343056666</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686343056666</updated>
+    </task>
+    <task id="LOCAL-00007" summary="edit Jenkinsfile">
+      <created>1686343265338</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686343265338</updated>
+    </task>
+    <task id="LOCAL-00008" summary="edit Jenkinsfile">
+      <created>1686343470492</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686343470492</updated>
+    </task>
+    <task id="LOCAL-00009" summary="edit Jenkinsfile">
+      <created>1686343713109</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686343713109</updated>
+    </task>
+    <task id="LOCAL-00010" summary="edit Jenkinsfile">
+      <created>1686343849515</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686343849515</updated>
+    </task>
+    <task id="LOCAL-00011" summary="edit Jenkinsfile">
+      <created>1686343968859</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1686343968859</updated>
+    </task>
+    <task id="LOCAL-00012" summary="edit Jenkinsfile">
+      <created>1686344269252</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686344269252</updated>
+    </task>
+    <task id="LOCAL-00013" summary="edit Jenkinsfile">
+      <created>1686344422071</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1686344422071</updated>
+    </task>
+    <task id="LOCAL-00014" summary="edit Jenkinsfile">
+      <created>1686344616424</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1686344616424</updated>
+    </task>
+    <task id="LOCAL-00015" summary="edit Jenkinsfile">
+      <created>1686344775254</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1686344775254</updated>
+    </task>
+    <task id="LOCAL-00016" summary="edit Jenkinsfile">
+      <created>1686344868626</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1686344868626</updated>
+    </task>
+    <task id="LOCAL-00017" summary="edit Jenkinsfile">
+      <created>1686344928254</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1686344928254</updated>
+    </task>
+    <task id="LOCAL-00018" summary="edit Jenkinsfile">
+      <created>1686345104879</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1686345104879</updated>
+    </task>
+    <task id="LOCAL-00019" summary="edit Jenkinsfile">
+      <created>1686345239242</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1686345239242</updated>
+    </task>
+    <task id="LOCAL-00020" summary="edit Jenkinsfile">
+      <created>1686345343556</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1686345343556</updated>
+    </task>
+    <task id="LOCAL-00021" summary="edit Jenkinsfile">
+      <created>1686345597978</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1686345597978</updated>
+    </task>
+    <task id="LOCAL-00022" summary="edit Jenkinsfile">
+      <created>1686381819839</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1686381819840</updated>
+    </task>
+    <task id="LOCAL-00023" summary="edit Jenkinsfile">
+      <created>1686382942488</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1686382942488</updated>
+    </task>
+    <task id="LOCAL-00024" summary="edit Jenkinsfile">
+      <created>1686383816768</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1686383816768</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,9 +375,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="commit" />
     <MESSAGE value="add screenResolution full" />
-    <option name="LAST_COMMIT_MESSAGE" value="add screenResolution full" />
+    <MESSAGE value="add WebDriver::quit" />
+    <MESSAGE value="add Jenkinsfile" />
+    <MESSAGE value="edit Jenkinsfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit Jenkinsfile" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SelenideUiTest$MainTest_userCanLoginByUsername.ic" NAME="MainTest.userCanLoginByUsername Coverage Results" MODIFIED="1685653108996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
