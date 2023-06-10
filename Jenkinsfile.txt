@@ -16,5 +16,10 @@ pipeline {
             sh './gradlew clean test'
           }
         }
+        stage('Allure Serve') {
+          steps {
+            sh './gradlew allureServe'
+          }
+        }
     }
 }
