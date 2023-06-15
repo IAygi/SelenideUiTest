@@ -5,9 +5,11 @@ pipeline {
           steps {
             sh 'chmod +x gradlew'
           }
+        stage('Test') {
           steps {
             sh './gradlew clean'
           }
+        stage('Test') {
           steps {
             sh './gradlew test --no-daemon'
           }
