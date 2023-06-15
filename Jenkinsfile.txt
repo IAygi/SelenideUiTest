@@ -2,16 +2,11 @@ pipeline {
     agent any
     stages {
         stage('Test') {
-          steps {
+          step {
             sh 'chmod +x gradlew'
           }
-        stage('Test') {
-          steps {
-            sh './gradlew clean'
-          }
-        stage('Test') {
-          steps {
-            sh './gradlew test --no-daemon'
+          step {
+            sh './gradlew clean test --no-daemon'
           }
         }
         stage('Allure Report') {
