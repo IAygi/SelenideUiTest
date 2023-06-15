@@ -2,10 +2,10 @@ pipeline {
     agent any
     stages {
         stage('Test') {
-          step {
+          steps {
             sh 'chmod +x gradlew'
           }
-          step {
+          steps {
             sh './gradlew clean test --no-daemon'
           }
         }
