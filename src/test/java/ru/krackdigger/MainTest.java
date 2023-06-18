@@ -54,6 +54,11 @@ public class MainTest {
         driver.quit();
     }
 
+//    @AfterAll
+//    public static void cleanUp() {
+//        System.out.println("After All cleanUp() method called");
+//    }
+
     @Test
     @Tag("main_page")
     public void mainPage() {
