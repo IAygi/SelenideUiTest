@@ -1,6 +1,7 @@
 package ru.krackdigger;
 
 import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.WebDriverRunner;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -24,6 +25,7 @@ public class MainTest {
     @BeforeAll
     public static void setUp() {
         Configuration.baseUrl = "https://tatyana-aygi.ru";
+        // Configuration.holdBrowserOpen = true;
     }
 
     @BeforeEach
@@ -44,7 +46,7 @@ public class MainTest {
         }});
         driver = new RemoteWebDriver(new URL("http://194.67.119.85:4444/wd/hub"), options);
         // driver.manage().window().setSize(new Dimension(1920,1080));
-//        WebDriverRunner.setWebDriver(driver);
+        WebDriverRunner.setWebDriver(driver);
     }
 
     @AfterEach
@@ -88,7 +90,6 @@ public class MainTest {
     @Test
     @Tag("create_order")
     public void createOrder() {
-        Configuration.holdBrowserOpen = true;
         step("Открыть галерею", () -> {
             open("/gallery");
         });
