@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb4f622b-eadf-4528-9b43-5d0de3511243" name="Changes" comment="edit Jenkinsfile">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/krackdigger/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/krackdigger/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +26,68 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SelenideUiTest" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SelenideUiTest" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SelenideUiTest" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SelenideUiTest" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SelenideUiTest" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SelenideUiTest" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SelenideUiTest" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SelenideUiTest" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SelenideUiTest" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SelenideUiTest" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -57,12 +119,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/JavaProjects/qaguru_homework_12.5&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.MainTest">
+  <component name="RunManager" selected="Gradle.SelenideUiTest [allureReport]">
     <configuration name="MainTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" isNew="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -86,12 +149,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MainTest.simpleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" isNew="true">
+    <configuration name="MainTest.childrenPage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" isNew="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--stacktrace" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -99,7 +162,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.krackdigger.MainTest.simpleTest&quot;" />
+            <option value="&quot;ru.krackdigger.MainTest.childrenPage&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MainTest.createOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" isNew="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.krackdigger.MainTest.createOrder&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -132,7 +218,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SelenideUiTest [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" isNew="true">
+    <configuration name="SelenideUiTest [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" isNew="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -143,7 +229,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="dependencies" />
+            <option value="allureReport" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -153,7 +239,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SelenideUiTest [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" isNew="true">
+    <configuration name="SelenideUiTest [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" isNew="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -164,7 +250,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="test" />
+            <option value="allureServe" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -176,10 +262,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SelenideUiTest [allureReport]" />
+        <item itemvalue="Gradle.SelenideUiTest [allureServe]" />
         <item itemvalue="Gradle.MainTest" />
-        <item itemvalue="Gradle.SelenideUiTest [test]" />
-        <item itemvalue="Gradle.MainTest.simpleTest" />
-        <item itemvalue="Gradle.SelenideUiTest [dependencies]" />
+        <item itemvalue="Gradle.MainTest.createOrder" />
+        <item itemvalue="Gradle.MainTest.childrenPage" />
       </list>
     </recent_temporary>
   </component>
@@ -423,7 +510,105 @@
       <option name="project" value="LOCAL" />
       <updated>1686392873544</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="edit Jenkinsfile">
+      <created>1686429832144</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1686429832144</updated>
+    </task>
+    <task id="LOCAL-00035" summary="edit Jenkinsfile">
+      <created>1686429848621</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1686429848621</updated>
+    </task>
+    <task id="LOCAL-00036" summary="edit Jenkinsfile">
+      <created>1686429955093</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1686429955093</updated>
+    </task>
+    <task id="LOCAL-00037" summary="edit Jenkinsfile">
+      <created>1686430139264</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1686430139265</updated>
+    </task>
+    <task id="LOCAL-00038" summary="edit Jenkinsfile">
+      <created>1686484989648</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1686484989648</updated>
+    </task>
+    <task id="LOCAL-00039" summary="edit Jenkinsfile">
+      <created>1686860498021</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1686860498021</updated>
+    </task>
+    <task id="LOCAL-00040" summary="edit Jenkinsfile">
+      <created>1686860718379</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1686860718379</updated>
+    </task>
+    <task id="LOCAL-00041" summary="edit Jenkinsfile">
+      <created>1686860837159</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1686860837159</updated>
+    </task>
+    <task id="LOCAL-00042" summary="edit Jenkinsfile">
+      <created>1686860894391</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1686860894391</updated>
+    </task>
+    <task id="LOCAL-00043" summary="edit Jenkinsfile">
+      <created>1686860933585</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1686860933585</updated>
+    </task>
+    <task id="LOCAL-00044" summary="edit Jenkinsfile">
+      <created>1686861117510</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1686861117510</updated>
+    </task>
+    <task id="LOCAL-00045" summary="edit Jenkinsfile">
+      <created>1686861218838</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1686861218838</updated>
+    </task>
+    <task id="LOCAL-00046" summary="edit Jenkinsfile">
+      <created>1686861513044</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1686861513044</updated>
+    </task>
+    <task id="LOCAL-00047" summary="edit Jenkinsfile">
+      <created>1686861807834</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1686861807834</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
